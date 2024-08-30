@@ -1,8 +1,7 @@
 import Styles from './ProjectsStyles.module.css'
 import viberr from '../../assets/viberr.png'
 import freshBurger from '../../assets/fresh-burger.png'
-import hipsster from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
+import Ecommerce from '../../assets/Ecommerce.jpeg'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -18,22 +17,17 @@ function Projects() {
             />
             < ProjectCard
              src={freshBurger} 
-             link='https://github.com/Syedshoaib7/TO-DO-List'
-            h3="Fresh Burger"
-            p="Hamburger Restaurant"
+             link='https://github.com/Syedshoaib7/FOOD-DELIVERY-APP'
+            h3="FOOD-DEL"
+            p="Food Delivery Application"
             />
             < ProjectCard
-             src={hipsster} 
-             link='https://github.com/Syedshoaib7/TO-DO-List'
-            h3="Hipsster"
-            p="Glasses Shop"
+             src={Ecommerce} 
+             link='https://github.com/Syedshoaib7/E-commerce-website'
+            h3="E-Commerce"
+            p="E-Commerce Website"
             />
-            < ProjectCard
-             src={fitLift} 
-             link='https://github.com/Syedshoaib7/TO-DO-List'
-            h3="FitLift"
-            p="Fitness App"
-            />
+          
         </div>
     </section>
   )
